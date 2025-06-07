@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+} /* Navegador */
+.navbar-brand {
+  width: 75px;
+  height: 75px;
+}
+.planta{
+  width: 75px;
+  height: 75px;
+}
+.carrito{
+  width: 30px;
+  height: 30px;
+}
+
+/*Servicios*/
+.busqueda{
+  width: 200px;
+  margin-left: 10px;
+}
+.servicios-caja1{
+  margin: 60px;
+  color: rgb(94, 91, 91);
+}
+.servicios-caja1 h4 {
+  font-size: 40px;
+}
+.servicios-caja1 .parrafo1 {
+  max-width: 700px;
+  padding: 10px;
+}
+.contenedor-cajas {
+  margin: 30px;
+  gap: 30px;
+}
+.contenedor-cajas .caja {
+  width: 350px;
+  background-color: rgb(251, 245, 245);
+  padding: 15px;
+
+}
+.contenedor-cajas .caja .titulo-servicios {
+  text-decoration: underline;
+  color: rgb(94, 91, 91);
+  margin-top: 20px;
+}
+.contenedor-cajas .caja .parrafo-servicios {
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 5px;
+  color: rgb(94, 91, 91);
+}
+.contenedor-cajas .caja img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+.contenedor-cajas .caja:hover {
+  background-color: rgb(237, 218, 212);
+  color: rgb(94, 91, 91);
+}
+.button{
+  display: block;
+  margin: 0px auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  border: 0.5px solid rgb(94, 91, 91);
+  border-radius: 2px;
+  background-color: rgb(243, 241, 239);
+  color: rgb(94, 91, 91);
+}
+.button:hover {
+  border: 1px solid rgb(243, 241, 239);
+  background-color: rgb(67, 85, 70);
+  color: rgb(243, 241, 239);
+}
+
+@media (max-width: 800px) {
+  .servicios-caja1 {
+    height: 250px;
+    margin: 10px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .contenedor-cajas {
+    margin: 15px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .contenedor-cajas .caja {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+  }
+  .contenedor-cajas .caja .caja img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+/*Fin de pagina servicios*/
+
+/*Pagina carrito*/
+
+.finalizar {
+  width: 200px;
+}
+
+.contenedorResumen{
+  background-color: rgb(243, 241, 239);
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 15px;
+  margin-top: 40px;
+}
+.FlexContact {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/*footer*/
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 55px;
+}
+footer .logos {
+  width: 20px;
+  height: 20px;
+}
+footer .footer-titulo {
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.row, .container, .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorResumen{
+  background-color: rgb(243, 241, 239);
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 15px;
+  margin-top: 40px;
+}
+/*fin de footer*/
+
+.finalizar {
+  width: 200px;
+} 
+
+.contenedorResumen{
+  background-color: rgb(243, 241, 239);
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 15px;
+  margin-top: 40px;
+}

@@ -1,0 +1,81 @@
+[
+    { 
+    "codigo": 1,
+    "cantidad":1,
+    "imagen": "./img/plantas/palmaKentia.avif",
+    "nombre": "Palma Kentia",
+    "descripcion": "Tropical y purificadora",
+    "precio": 1000 
+    },
+    { 
+        "codigo": 2,
+        "cantidad":1,
+        "imagen": "./img/plantas/pachira.avif",
+        "nombre": "Pachira",
+        "descripcion": "Purificadora y resistente",
+        "precio": 1000 
+    },
+    { 
+        "codigo": 3,
+        "cantidad":1,
+        "imagen": "./img/plantas/paraiso.avif",
+        "nombre": "Ave del Paraiso", 
+        "descripcion": "Decoradora y resistente",
+        "precio": 1000
+    },
+    { 
+        "codigo": 4,
+        "cantidad":1,
+        "imagen": "./img/plantas/monstera.avif",
+        "nombre": "Monstera Deliciosa",
+        "descripcion": "Se adapta a cualquier ambiente",
+        "precio": 1000 
+
+    },
+    { 
+        "codigo": 5,
+        "cantidad":1,
+        "imagen": "./img/plantas/areca.avif",
+        "nombre": "Palma Areca",
+        "descripcion": "Tropical y resistente",
+        "precio": 1000
+
+    },
+    { 
+        "codigo": 6,
+        "cantidad":1,
+        "imagen": "./img/plantas/olivo.avif",
+        "nombre": "Arbol del Olivo",
+        "descripcion": "Resistente y hermoso",
+        "precio": 1000
+
+    },
+    { 
+        "codigo": 7,
+        "cantidad":1,
+        "imagen": "./img/plantas/orbifolia.avif",
+        "nombre": "Calathea Orbifolia",
+        "descripcion": "Planta de rayas, por la frondosidad y el dibujo simétrico en el haz de sus hojas", "precio": 1000 
+    },
+    { 
+        "codigo": 8,
+        "cantidad":1,
+        "imagen": "./img/plantas/yucca.avif",
+        "nombre": "Yucca", "descripcion": "Es perfecto para decorar un rincón de tu hogar aportando color y vida",
+        "precio": 1000
+
+    },
+    { 
+        "codigo": 9,
+        "cantidad":1,
+        "imagen": "./img/plantas/brasil.avif",
+        "nombre": "Tronco de Brasil",
+        "descripcion": "Dracaena Fragrans o Tronco del Brasil",
+        "precio": 1000
+
+    }
+]
+
+
+
+

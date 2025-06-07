@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" src="./mutimedia/img/logos/-.png" type="image/x-icon">
+    <title>Barra Studios</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script defer src="./js/main.js"></script>
+    <!-- EN ESTE HTML SOLO ESTA LINKEADO EL SCRIPT DEL MAIN, EL CUAL TIENE LA LOGICA PARA
+    AGREGAR LOS PRODUCTOS AL CARRITO,
+  NO HACE FALTA EL SCRIPT DE CLASS.COMPRA.JS YA QUE NO TRABAJA CON ESTE HTML -->
+
+  <!-- REVISAR LOS ENLACES DE LAS RUTAS A LAS IMAGENES, ESA 👇 SERÍA LA FORMA CORRECTA. -->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary-tertiary">
+            <div class="container-fluid">
+                <img class="navbar-brand" href="" src="./img/logos/planta.png" alt="logo-barra"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">TIENDA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./carrito.html">CARRITO<img id="carrito" class="carrito" src="./img/logos/carrito.png">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="servicios-caja1 d-flex flex-column align-items-center">
+            <h4 id="tituloPlantas">TODAS LAS PLANTAS</h4>
+            <p id="slogan" class="parrafo1 text-center">Echa un vistazo a nuestra selección de plantas. ¡Tenemos una perfecta para tí!</p>
+        </div>
+        <input class="busqueda" type="search" id="inputSearch" name="q" placeholder="Buscar...">
+        <section id="caja" class="contenedor-cajas d-flex flex-row justify-content-center align-items-center flex-wrap">
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer-caja1">
+            <h3 class="footer-titulo">PLANTATE &copy;</h2>
+            <div class="footer-redes">
+                <a href="https://www.facebook.com/" target="_blank"><img class="logos" src="./img/logos/logo-facebook-min.png" alt="Logo de Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="logos" src="./img/logos/logo-instagram-min.png" alt="Logo de Instagram"></a>
+                <a href="" target="_blank"><img class="logos" src="./img/logos/logo-whatsapp-min.png" alt="Logo Whatsapp"></a>           
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+      AOS.init(true)
+    </script>
+</body>
+</html>
